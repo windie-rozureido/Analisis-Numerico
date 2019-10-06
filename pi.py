@@ -20,7 +20,7 @@ def pn2(n):
         p = 2**(i-1)*math.sqrt(r)
     return p
 
-for n in range(3, 151):
+for n in range(3, 61):
     pn = pn1(n)
     pm = pn2(n)
     print(n, pn, pm)
